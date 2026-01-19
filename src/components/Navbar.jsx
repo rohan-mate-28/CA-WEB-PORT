@@ -56,7 +56,7 @@ const Navbar = () => {
          
 
            
-          <NavItem to="/blog" label="Blog" />
+          {/* <NavItem to="/blog" label="Blog" /> */}
            
         </ul>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
             <ul className="flex flex-col gap-4 mt-12 text-lg font-medium text-gray-700">
               <NavItem to="/" label="Home" onClick={() => setMobileOpen(false)} />
                <NavItem to="/services" label="Services" onClick={() => setMobileOpen(false)} />
-               <NavItem to="/blog" label="Blog" onClick={() => setMobileOpen(false)} />
+               {/* <NavItem to="/blog" label="Blog" onClick={() => setMobileOpen(false)} /> */}
                
             </ul>
           </motion.div>

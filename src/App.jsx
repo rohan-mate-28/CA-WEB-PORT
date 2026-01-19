@@ -6,7 +6,6 @@ import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
-import Blog from "./components/small pages/Blog";
 import Faq from "./components/Faq";
 import Taxation from "./components/small pages/Taxation";
 import Audit from "./components/small pages/Audit";
@@ -43,8 +42,7 @@ export default function App() {
         <Route path="/services/accounting" element={<Accounting/>} />
           <Route path="/services/advisory" element={<Advisory />} />
  
-        <Route path="/blog" element={<Blog />} />
-      </Routes>
+       </Routes>
       <Footer />
     </>
   );
